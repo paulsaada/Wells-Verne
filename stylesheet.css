@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Lora|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url("https://use.typekit.net/ftk7jnf.css");
 /*----- GLOBAL STYLES -----*/
 
 html {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Futura-PT', sans-serif;
 	background-image: url(images/white-waves.png);
 	background-repeat: repeat;
 	background-attachment: fixed;
-	color: rgb(0, 0, 70)
+	color: rgb(0, 0, 70);
+	scroll-behavior: smooth;
 }
 
 body {
@@ -18,10 +20,27 @@ body {
 a {
 	color: inherit;
 	text-decoration: none;
+	font-weight: 600;
+}
+
+p {
+	font-size: 1.2em;
+}
+
+.title {
+	font-family: 'Lora', sans-serif;
+	font-size: 3.5em;
+	text-align: center;
+	padding-top: 75px;
+	padding-bottom: 50px;
 }
 
 .hidden {
-  opacity: 0;
+	opacity: 0;
+}
+
+.no-space {
+	display: none;
 }
 
 .fade-in {
@@ -39,23 +58,13 @@ a {
 
 /*----- HEADER -----*/
 
-header {
-   	/*position: fixed;
-	left: 0px;
-	top: 0px;
-	height: 160px;
-	width: 100%;
-   	background: rgb(235,235,235);
-   	justify-content: flex-end;*/
-}
-
 .logo {
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 10px;
 }
 
 .logo p a {
-	font-size: 2.5em;
+	font-size: 2.8em;
 	font-family: 'Lora', sans-serif;
 	font-weight: 400;
 	text-decoration: none;
@@ -72,6 +81,7 @@ header ul {
 header li {
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
+	font-weight: 400;
 }
 
 .nav {
@@ -80,6 +90,7 @@ header li {
 
 .nav ul {
 	justify-content: center;
+	margin-bottom: 0;
 }
 
 .nav li {
@@ -91,22 +102,23 @@ header li {
 
 .intro {
 	display: flex;
+	padding-top: 25px;
+	padding-bottom: 50px;
 }
 
 .intro-card {
 	text-align: center;
 }
 
-.title {
+.intro-title {
 	flex: 20%;
 	font-family: 'Lora', sans-serif;
 	font-size: 4em;
-	padding-top: 45px;
+	padding-top: 40px;
 	margin-bottom: 0;
 }
 
 .desc {
-	font-family: 'Roboto', sans-serif;
 	font-size: 1.2em;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -118,7 +130,7 @@ header li {
 }
 
 .intro-image img {
-	max-width: 600px;
+	max-width: 650px;
 	width: 100%;
 	height: auto;
 	padding-top: 50px;
@@ -126,7 +138,7 @@ header li {
 }
 
 .scroll-prompt {
-	padding-top: 95px;
+	padding-top: 70px;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 1.1em;
@@ -146,15 +158,76 @@ header li {
 
 /*----- BUSINESS OVERVIEW SECTION -----*/
 
+.overview-container {
+
+}
+
+.business-overview {
+	display: flex;
+	padding-bottom: 20px;
+}
+
+.overview-image img {
+	max-width: 250px;
+	min-width: 300px;
+	width: 100%;
+	height: auto;
+	padding-left: 40px;
+}
+
+.overview-desc {
+	padding-left: 3%;
+	padding-right: 5%;
+}
+
+.business-metrics {
+	display: flex;
+	justify-content: center;
+}
+
+.metric-child {
+	text-align: center;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+.subtitle {
+	font-size: 1em;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.metric {
+	font-weight: 500;
+	font-size: 3.2em;
+	margin-top: 0;
+	padding-left: 20px;
+	text-align: center;
+}
+
+/*----- PHILOSOPHY -----*/
 
 
 /*----- FUTURE OF WELLS VERNE SECTION -----*/
 
+.future {
+	display: flex;
+}
 
+.future-desc {
+	flex: 70%;
+}
 
-/*----- CORPORATE RESPONSIBILITY SECTION -----*/
+.quote {
+	flex: 30%;
+	font-size: 2em;
+	font-style: italic;
+}
 
-
+.quote span {
+	text-decoration: underline;
+}
 
 /*----- FOOTER SECTION -----*/
 

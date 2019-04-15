@@ -7,7 +7,12 @@
 	<meta name="keywords" content="Real Estate and Private Equity Holdings Group">
 	<meta name="description" content="Wells Verne is a conglomerate of various private equity firms, real estate property holdings groups, and property management firm.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.typekit.net/ftk7jnf.css">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="./js/countUp.min.js" type="module"></script>
+	<script src="./main.js" type="module"></script>
+
 </head>
 <body>
 	<div class="wrapper">
@@ -22,16 +27,16 @@
 				<nav>
 					<ul>
 						<li>
-							<a href="#">Group</a>
+							<a href="#group">The Group</a>
 						</li>
 						<li>
-							<a href="#">Philosophy</a>
+							<a href="#philosophy">Philosophy</a>
 						</li>
 						<li>
-							<a href="#">Future of WVHG</a>
+							<a href="#future">Future of WVHG</a>
 						</li>
 						<li>
-							<a href="#">Contact</a>
+							<a href="contact.html">Contact</a>
 						</li>
 					</ul>
 				</nav>
@@ -39,19 +44,89 @@
 		</header>
 
 		<main>
-			<section class="intro">
-				<div class="intro-card">
-					<p class="title">Hello, welcome to Wells Verne.</p>
-					<p class="desc">We're a private equity firm and real estate holdings group specializing in business acquisition and property management.</p>
-				</div>
-				<div class="intro-image">
-					<img src="images/wellsverne.jpg">
-				</div>
-			</section>
-			<div class="scroll-prompt bounce">
+			<div class="#">
+				<section class="intro">
+					<div class="intro-card">
+						<p class="intro-title">Hello, welcome to Wells Verne.</p>
+						<p class="desc">We're a private equity firm and real estate holdings group specializing in business acquisition and property management.</p>
+					</div>
+					<div class="intro-image">
+						<img src="images/wellsverne.jpg">
+					</div>
+				</section>
+
+				<div class="scroll-prompt bounce">
 					<p>Scroll to Continue</p>
 				</div>
-		</main>	
+			</div>
+
+			<div class="title" id="group">The Group</div>
+
+			<section class="overview-container">
+				<div class="business-overview">	
+					<div class="overview-image">
+						<img src="images/business-overview.jpg">
+					</div>
+					<div class="overview-desc">
+						<p>Wells Verne (WVHG) started in a small office by five partners in New York City back in 2009.</p>
+						<p>Having witnessed firsthand the dangers of overspeculation following the financial market crash of 2008, Wells Verne was born from a simple investment philosophy.</p>
+						<p>We would always look towards a company's core fundamentals and seek to invest in companies that serve communities that will always need their products/services. Recession or not. We would also always seek to invest in companies that we believe grow responsibly and ethically.</p>
+						<p>Over just a decade, this simple idea took $3m of privately-raised capital and slowly turned it into a $44m-a-year business behemoth.</p>
+						<p>We continue to seek new investment opportunities wherever they come. If you believe you have such an opportunity for us, you may contact us <a href="contact.html">here</a>.</p>
+						<p>We're also always looking for new faces and new talents. If you'd like to work at Wells Verne, you may send a copy of your resume and CV to careers@wellsverne.com</p>
+					</div>
+				</div>
+				<div class="business-metrics">
+					<div class="metric-child">
+						<p class="subtitle">Year Established</p>
+						<p class="metric" id="counter">2009</p>
+					</div>
+					<div class="metric-child">
+						<p class="subtitle"># of Businesses</p>
+						<p class="metric" id="counter2">11</p>
+					</div>
+					<div class="metric-child">
+						<p class="subtitle"># of Properties</p>
+						<p class="metric" id="counter3">39</p>
+					</div>
+					<div class="metric-child">
+						<p class="subtitle">Yearly (GROSS) Revenue</p>
+						<p class="metric" id="counter4">$43,687,000</p>
+					</div>
+				</div>
+			</section>
+
+			<div class="title" id="philosophy">Business Philosophy</div>
+
+			<section class="philosophy">
+				
+			</section>
+
+			<div class="title" id="future">Future of Wells Verne</div>
+			
+			<section class="future">
+				<div class="future-desc">
+					<div>
+						<p>At Wells Verne, we like to think ahead. Over the past two years, we've undertaken great initiatives to invest in specifically two industries that we're very excited about.</p>
+					</div>
+					<div>
+						<p class="subtitle">On renewable energy</p>
+						<p>We believe in living sustainably and helping build societies that have a low carbon footprint. Over the next 10 years, we plan on investing over a quarter of a billion dollars in companies serving renewable energy in New York City and Philadelphia.</p>
+					</div>
+					<div>
+						<p class="subtitle">On artificial intelligence</p>
+						<p>Artificial intelligence is one of the most exciting new industries of our time and we regularly seek out companies that are working to create AI chips for data centers and smartphones as well as integrating AI into products that their customers already use. To date, we have invested over $15m into AI.</p>
+					</div>
+				</div>
+				<div class="quote">
+					<blockquote>"I believe the future of our societies rests in the hands of renewable energy and artificial intelligence" — <span>Founder of Wells Verne, Patrick Sullivan</span></blockquote>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			
+		</footer>	
 	</div>
 </body>
 </html>
