@@ -234,6 +234,7 @@ header li {
 
 .ethics-icon {
 	text-align: center;
+	padding-top: 20px;
 }
 
 .middle-child {
@@ -305,3 +306,79 @@ footer {
 }
 
 /*----- MEDIA QUERIES -----*/
+
+@media (max-width: 1270px) {
+	.intro {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.intro img {
+		display: none;
+	}
+}
+
+@media (max-width: 1075px) {
+	header li {
+		padding-right: 3vw;
+		padding-left: 3vw;
+	}
+
+	.start-career {
+		padding-left: 4vw;
+		padding-right: 4vw;
+	}
+}
+
+@media (max-width: 900px) {
+	.business-overview {
+		flex-direction: column;
+	}
+
+	.overview-image {
+  		align-self: center;
+  		max-width: 450px;
+	}
+
+	.overview-image img {
+		max-width: 450px;
+		min-width: 400px;
+	}
+
+	.future {
+		flex-direction: column-reverse;
+	}
+
+	/*.footer-contact {
+		flex-direction: column;
+	}*/
+}
+
+@media (max-width: 850px) {
+	body {
+		width: 95%;
+	}
+
+	.business-metrics {
+		flex-direction: column;
+	}
+
+	.ethics-container {
+		flex-direction: column;
+	}
+
+	.ethics-icon {
+		padding-top: 50px;
+	}
+}
+
+@media (max-width: 675px) {
+	.footer-contact {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.footer-subheading {
+		padding-top: 15px;
+	}
+}
