@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
 @import url("https://use.typekit.net/ftk7jnf.css");
 /*----- GLOBAL STYLES -----*/
-* {
-	-webkit-font-smoothing: antialiased;
-}
 
 html {
 	font-family: 'Futura-PT', sans-serif;
@@ -44,7 +41,6 @@ p {
 	font-weight: 600;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	padding-top: 10px;
 }
 
 .hidden {
@@ -169,20 +165,21 @@ header li {
 
 /*----- BUSINESS OVERVIEW SECTION -----*/
 
+.overview-container {
+
+}
+
 .business-overview {
 	display: flex;
 	padding-bottom: 20px;
 }
 
-.overview-image {
-	max-width: 300px;
-}
-
 .overview-image img {
-	max-width: 320px;
-	min-width: 290px;
+	max-width: 250px;
+	min-width: 300px;
 	width: 100%;
 	height: auto;
+	padding-left: 40px;
 }
 
 .overview-desc {
@@ -299,9 +296,10 @@ footer {
 	padding-bottom: 25px;
 }
 
-.start-career {
-	padding-left: 6vw;
-	padding-right: 6vw;
+.start-conversation {
+	padding-right: 9%;
 }
 
-/*----- MEDIA QUERIES -----*/
+.start-career {
+	padding-right: 9%;
+}

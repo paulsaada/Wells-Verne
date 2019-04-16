@@ -130,7 +130,10 @@ footer {
 	padding-bottom: 25px;
 }
 
+.start-conversation {
+	padding-right: 9%;
+}
+
 .start-career {
-	padding-left: 6vw;
-	padding-right: 6vw;
+	padding-right: 9%;
 }
