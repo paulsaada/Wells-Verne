@@ -342,9 +342,9 @@ footer {
 
 	.overview-image img {
 		max-width: 450px;
-		min-width: 300px;
-		padding-left: 15px;
-		padding-right: 15px;
+		min-width: 220px;
+		/*padding-left: 15px;
+		padding-right: 15px;*/
 	}
 
 	.future {
@@ -367,6 +367,8 @@ footer {
 
 	.ethics-container {
 		flex-direction: column;
+		padding-left: 9%;
+		padding-right: 9%;
 	}
 
 	.ethics-icon {
@@ -398,5 +400,53 @@ footer {
 	.overview-image img {
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+}
+
+@media (max-width: 450px) {
+	.logo {
+		padding-top: 1px;
+	}
+
+	.logo p a {
+		font-size: 2em;
+	}
+
+	header li {
+		font-size: 1em;
+	}
+
+	.intro-title {
+		font-size: 2em;
+		padding-top: 5px;
+	}
+
+	.desc {
+		font-size: 1em;
+	}
+
+	.scroll-prompt {
+		font-size: 1em;
+		padding-top: 30px;
+	}
+
+	.title {
+		font-size: 2.3em;
+	}
+
+	.subtitle {
+		font-size: 1.1em;
+	}
+
+	p {
+		font-size: 1em;
+	}
+
+	.metric {
+		font-size: 2em;
+	}
+
+	.quote {
+		font-size: 1.3em;
 	}
 }
