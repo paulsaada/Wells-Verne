@@ -52,7 +52,7 @@ p {
 }
 
 .fadeIn {
-  animation: fadeIn 2.5s;
+  animation: fadeIn 1.5s;
 }
 
 @keyframes fadeIn{
@@ -199,6 +199,10 @@ header li {
 	text-align: center;
 	padding-left: 4%;
 	padding-right: 4%;
+}
+
+.subtitle-fixed {
+	position: absolute;
 }
 
 .metric {

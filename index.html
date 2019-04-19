@@ -10,18 +10,7 @@
 	<link rel="stylesheet" href="https://use.typekit.net/ftk7jnf.css">
 	<link rel="stylesheet" type="text/css" href="stylesheet-min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<script type="text/javascript" src="script.js"></script>
-	<script src="./js/countUp.min.js" type="module"></script>
-	<script src="./main.js" type="module"></script>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138452020-1"></script>
-	<script>
-  		window.dataLayer = window.dataLayer || [];
-  		function gtag(){dataLayer.push(arguments);}
-  		gtag('js', new Date());
-
-  		gtag('config', 'UA-138452020-1');
-	</script>
+	
 
 </head>
 <body>
@@ -72,12 +61,12 @@
 
 			<div class="title hidden" id="group">The Group</div>
 
-			<section class="overview-container hidden">
+			<section class="overview-container">
 				<div class="business-overview">	
-					<div class="overview-image">
+					<div class="overview-image hidden">
 						<img src="images/business-overview.jpg">
 					</div>
-					<div class="overview-desc">
+					<div class="overview-desc hidden">
 						<p>Wells Verne (WVHG) started in a small office by five partners in New York City back in 2009.</p>
 						<p>Having witnessed firsthand the dangers of overspeculation following the financial market crash of 2008, Wells Verne was born from a simple investment philosophy.</p>
 						<p>We would always look towards a company's core fundamentals and seek to invest in companies that serve communities that will always need their products/services. Recession or not. We would also always seek to invest in companies that we believe grow responsibly and ethically.</p>
@@ -88,20 +77,20 @@
 				</div>
 				<div class="business-metrics hidden">
 					<div class="metric-child">
-						<p class="subtitle">Year Established</p>
+						<p class="subtitle subtitle-fixed">Year Established</p>
 						<p class="metric" id="counter">2009</p>
 					</div>
 					<div class="metric-child">
-						<p class="subtitle"># of Businesses</p>
+						<p class="subtitle subtitle-fixed"># of Businesses</p>
 						<p class="metric" id="counter2">11</p>
 					</div>
 					<div class="metric-child">
-						<p class="subtitle"># of Properties</p>
+						<p class="subtitle subtitle-fixed"># of Properties</p>
 						<p class="metric" id="counter3">39</p>
 					</div>
 					<div class="metric-child">
-						<p class="subtitle">Yearly (GROSS) Revenue</p>
-						<p class="metric" id="counter4">$43,687,000</p>
+						<p class="subtitle subtitle-fixed">Yearly (GROSS) Revenue</p>
+						<p class="metric">$<span id="counter4">43,687,000</span></p>
 					</div>
 				</div>
 			</section>
@@ -112,8 +101,8 @@
 				<div class="ethics-desc hidden">
 					<p>At Wells Verne, we believe that business should be conducted responsibly and sustainably. Our commitment to this idea can be boiled down to three basic tenets which we work diligently with our in-house ethics and compliance officers to adhere to.</p>
 				</div>
-				<div class="ethics-container">
-					<div class="ethics-child hidden">
+				<div class="ethics-container hidden">
+					<div class="ethics-child">
 						<div class="ethics-icon">
 							<i class="fas fa-balance-scale fa-4x"></i>
 						</div>
@@ -125,7 +114,7 @@
 							<p>We never invest in companies that we believe engage in exploitative business practices and we strongly adhere to government regulation of investor's practices.</p>
 						</div>
 					</div>
-					<div class="ethics-child middle-child hidden">
+					<div class="ethics-child middle-child">
 						<div class="ethics-icon">
 							<i class="fas fa-handshake fa-4x"></i>
 						</div>
@@ -137,7 +126,7 @@
 							<p>Since 2009, we have donated over $15m to public schools in New York City and Philadelphia and created free afterschool STEM and financial literacy programs in low-income and disadvantaged neighborhoods.</p>
 						</div>
 					</div>
-					<div class="ethics-child hidden">
+					<div class="ethics-child">
 						<div class="ethics-icon">
 							<i class="fas fa-leaf fa-4x"></i>
 						</div>
@@ -175,8 +164,8 @@
 			</section>
 		</main>
 
-		<footer class="hidden">
-			<div class="footer-sidebar">
+		<footer>
+			<div class="footer-sidebar hidden">
 				<div class="footer-logo">
 					<p>Wells Verne</p>
 				</div>
@@ -185,7 +174,7 @@
 					<p>All Rights Reserved</p>
 				</div>
 			</div>
-			<div class="footer-body">
+			<div class="footer-body hidden">
 				<div class="footer-heading">
 					<p>We're always on the search for new people and new companies to invest in that align with our goals—Let's build something great together.</p>
 				</div>
@@ -218,5 +207,17 @@
 			</div>
 		</footer>	
 	</div>
+	<script type="text/javascript" src="script.js"></script>
+	<script src="countUp.js" type="text/javascript"></script>
+	<script defer src="main.js" type="module"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138452020-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'UA-138452020-1');
+	</script>
 </body>
 </html>
